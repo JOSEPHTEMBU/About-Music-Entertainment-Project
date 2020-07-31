@@ -1,0 +1,130 @@
+*{
+    background-color: #ffff00;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+}
+
+nav li{   
+    margin-left: 20px;
+    padding: 0px 20px;
+    font-size: 20px;   
+    font-weight: bold;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #28324B;
+}
+
+.intro{
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    color: #28324B;
+}
+
+#logo{
+    height: 60px;
+}
+
+header h2{
+    margin-right: 750px;
+    color: #28324B;
+}
+h3{
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    color: #28324B 
+}
+
+.song-card{
+    width: 390px;
+    height: 491px;
+    background-color: #28324B;
+    border-radius: 15px;
+    padding-top: 10px;
+    margin: 15px;
+}
+
+.latest{
+    width: 80%;
+    margin: 0 auto;    
+    text-align: center;
+    margin-top: 10px;
+    
+}
+
+.latest-songs{
+    display: flex;
+    width: 1378px;
+    margin: 0 auto;    
+}
+
+.latest h2{
+    color: #28324B;
+}
+
+.album-art{
+    width: 363px;
+    height: 252px;    
+    margin: 0 auto; 
+    border-radius: 15px;     
+}
+
+.album-art img{
+    width: 363px;
+    height: 252px;
+    border-radius: 15px; 
+}
+
+.awards{    
+    width: 1378px;
+    margin: 0 auto;
+    
+}
+
+.awards h2{
+    text-align: center;
+    color: #28324B;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;    
+}
+
+th{
+    color: #ED5557;
+}
+
+td{
+    color: #ffff00;
+}
+  
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    background-color: #28324B;
+    border-radius: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
